@@ -1,0 +1,7 @@
+import random
+lst=[]
+for i in range(30):
+    lst.append(random.randint(i,30) )
+print(lst)
+print('Min=', min(lst))
+print('Max=', max(lst))
